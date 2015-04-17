@@ -93,7 +93,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
 
@@ -104,6 +104,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-STATIC_ROOT = "/var/www/mp.com/mpproject/static/"
-
+MEDIA_ROOT = '/home/ubuntu/mp.com/images/'
+MEDIA_URL = '/static/images/'
 STATIC_URL = '/static/'
